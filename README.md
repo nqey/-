@@ -51,10 +51,10 @@
 　　document.body.appendChild(activeNode);
 ```
 #### 4. import
-　　Html Import 可以将外部的 HTML 文档嵌入到当前文档中，提供很好的资源共享    
-    带有import属性的link 支持两个事件    
-      onload：文件成功引入页面会触发    
-      onerror： 文件加载失败会触发    
+Html Import 可以将外部的 HTML 文档嵌入到当前文档中，提供很好的资源共享    
+带有import属性的link 支持两个事件    
+onload：文件成功引入页面会触发    　
+onerror： 文件加载失败会触发   
 #### 例
 ```
 　　<link rel="import" href="banner.html">
