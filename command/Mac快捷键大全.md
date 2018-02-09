@@ -28,7 +28,6 @@
   > 截取所选屏幕区域到一个文件，或按空格键仅捕捉一个窗口
 * Command-Shift-Control-4
   > 截取所选屏幕区域到剪贴板，或按空格键仅捕捉一个窗
-![截图](https://imgsa.baidu.com/exp/w=480/sign=b547f9c95eb5c9ea62f302ebe53bb622/203fb80e7bec54e7b70dd5dcbc389b504ec26a0b.jpg)
 ## 在应用程序中
 * Command-Option-esc
   > 打开强制退出窗口
@@ -44,7 +43,6 @@
   > 在打开的应用程序列表中转到下一个最近使用的应用程序，相当于Windows中（Alt+Tab）
 * Command-Option-esc
   > 打开“强制退出”窗口，如果有应用程序无响应，可在窗口列表中选择强制退出
-![在应用程序中](https://imgsa.baidu.com/exp/w=480/sign=8a01593e79d98d1076d40d39113db807/48540923dd54564e36842bfbb6de9c82d0584f0b.jpg)
 ## 文本处理
 * Command-右箭头
   > 将光标移至当前行的行尾
@@ -75,7 +73,6 @@
   > 将光标移至上一个单词的开头
 * Control-A
   > 移至行或段落的开头
-![文本处理](https://imgsa.baidu.com/exp/w=500/sign=6bcbc908878ba61edfeec82f713697cc/ac6eddc451da81cbe3254c0f5766d01608243135.jpg)
 ## 在Finder中
 * Command-Option-V
   > 剪切文件
@@ -97,7 +94,6 @@
   > 清倒废纸篓
 * 空格键
   > 快速查看选中的文件，也就是预览功能
-![在Finder中](https://imgsa.baidu.com/exp/w=500/sign=31c3c0db28f5e0feee1889016c6234e5/6609c93d70cf3bc75ee1022ed400baa1cc112a0b.jpg)
 ## 在浏览器中
 * Control-Tab
   > 转向下一个标签页
@@ -111,7 +107,6 @@
   > 放大页面
 * Command-减号
   > 缩小页面
-![在浏览器中](https://imgsa.baidu.com/exp/w=500/sign=00d5492c9982d158bb8259b1b00819d5/9345d688d43f8794751e87ecd71b0ef41ad53a0b.jpg)
 Mac启动与关机时的快捷键
 * Command-Option-P-R
   > 重置NVRAM
@@ -125,4 +120,3 @@ Mac启动与关机时的快捷键
   > 退出所有应用程序，允许你进行文稿储存，然后关机
 * 按住电源按钮5秒
   > 强制Mac关机
-![Mac启动与关机时的快捷键](https://imgsa.baidu.com/exp/w=500/sign=296b2a5009f431adbcd243397b34ac0f/2cf5e0fe9925bc31c7bcce5a5bdf8db1ca13700b.jpg)
