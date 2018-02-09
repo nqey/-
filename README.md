@@ -1,3 +1,7 @@
 # 学习笔记
+## 前端工程师   
 ## 联系我
-> 秦超: <shincyou@hotmail.com>
+name  | 秦超
+--|--
+email | <shincyou@hotmail.com>
+phone | 17380455931
