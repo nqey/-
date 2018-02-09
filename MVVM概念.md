@@ -7,47 +7,47 @@
   > MVVM支持双向绑定，意思就是当M层数据进行修改时，VM层会监测到变化，并且通知V层进行相应的修改，反之修改V层则会通知M层数据进行修改，以此也实现了视图与模型层的相互解耦；
 
 ## v 视图层
-```
-    <form class="form">
-      <p>name:<input type="text" class="name" name="name"></p>
-      <p>age:<input type="text" class="age" name="age"></p>
-    </form>
+```javascript
+<form class="form">
+  <p>name:<input type="text" class="name" name="name"></p>
+  <p>age:<input type="text" class="age" name="age"></p>
+</form>
 ```
 ## m 模型层
-```
-      let person = {
-        _data: {
-          name: '',
-          age: '',
-        },
-      }
+```javascript
+let person = {
+  _data: {
+    name: '',
+    age: '',
+  },
+}
 ```
 ## vm 控制器
-```
-    function binding(obj, key) {
-      let dom = document.querySelector(`.${key}`);
-      Object.defineProperty(obj, key, {
-        get() {
-          // 获取模型层数据
-          return obj._data[key];
-        },
-        set(v) {
-          // 设置显示层内容
-          dom.value = v;
-          // 设置模型层数据
-          obj._data[key] = v;
-          console.log(`person.${key}: `, v);
-        },
-      });
-    }
+```javascript
+function binding(obj, key) {
+  let dom = document.querySelector(`.${key}`);
+  Object.defineProperty(obj, key, {
+    get() {
+      // 获取模型层数据
+      return obj._data[key];
+    },
+    set(v) {
+      // 设置显示层内容
+      dom.value = v;
+      // 设置模型层数据
+      obj._data[key] = v;
+      console.log(`person.${key}: `, v);
+    },
+  });
+}
 
-    Object.keys(person._data).forEach(function(k) {
-      binding(person, k);
-    });
+Object.keys(person._data).forEach(function(k) {
+  binding(person, k);
+});
 
-    document.querySelector('.form').addEventListener('input', (e) => {
-      let value = e.target.value;
-      let name = e.target.getAttribute('name');
-      person[name] = value;
-    });
+document.querySelector('.form').addEventListener('input', (e) => {
+  let value = e.target.value;
+  let name = e.target.getAttribute('name');
+  person[name] = value;
+});
 ```
