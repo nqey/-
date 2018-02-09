@@ -81,3 +81,14 @@
 * git push origin --delete [branch-name]
 * git branch -dr [remote/branch]
   > 删除远程分支
+## 标签
+* git tag
+  > 列出所有tag
+* git tag [tag]
+  > 新建一个tag在当前commit
+* git tag [tag] [commit]
+  > 新建一个tag在指定commit
+* git tag -d [tag]
+  > 删除本地tag
+* git push origin :refs/tags/[tagName]
+  > 删除远程tag
