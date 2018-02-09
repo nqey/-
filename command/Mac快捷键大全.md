@@ -107,7 +107,7 @@
   > 放大页面
 * Command-减号
   > 缩小页面
-Mac启动与关机时的快捷键
+## Mac启动与关机时的快捷键
 * Command-Option-P-R
   > 重置NVRAM
 * Option
